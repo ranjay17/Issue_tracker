@@ -1,0 +1,22 @@
+
+.home-container{
+    background-color: orange;
+    color: blue;
+}
+.home-container:hover{
+    background-color: #fd2f06;
+}
+.project-name{
+    margin: auto;
+    margin-left: 1%;
+}
+.front{
+    will-change: transform;
+    transition: transform 250ms;
+}
+.open-project-btn:hover .front{
+    transform: translateY(-6px);
+}
+.open-project-btn:active .front{
+    transform: translateY(-2px);
+}

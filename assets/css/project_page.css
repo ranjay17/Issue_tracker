@@ -1,0 +1,7 @@
+.project-container{
+    background-color: #f6ea98;
+    color: #4f400f;
+}
+.project-container:hover{
+    background-color: rgb(250, 58, 5);
+}
